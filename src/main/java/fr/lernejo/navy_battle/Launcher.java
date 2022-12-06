@@ -1,3 +1,5 @@
-public static void main(String[]args){
+package src.main.java.fr.lernejo.navy_battle;
 
-    }
+public class Launcher {
+    
+}
