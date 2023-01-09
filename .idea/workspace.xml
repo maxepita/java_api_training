@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="update ping 200/404 response">
+    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="Test Partie 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/GameStartHttpHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PingHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PingHttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PingHttpHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/schema.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673259991976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Partie 3">
+      <created>1673276710085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673276710085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven, pinghttphandler, server" />
     <MESSAGE value="update ping 200/404 response" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ping 200/404 response" />
+    <MESSAGE value="Test Partie 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Partie 3" />
   </component>
 </project>
