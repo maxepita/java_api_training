@@ -6,7 +6,8 @@ import java.io.OutputStream;
 
 public class PingHttpHandler implements HttpHandler{
 
-    private static final int HTTP_OK_STATUS = 200;
+    private final int HTTP_OK_STATUS = 200;
+    private final int HTTP_NOT_FOUND_STATUS = 404;
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
