@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="">
+    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="maven, pinghttphandler, server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PingHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PingHttpHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2IXKZ3m8uR6e5UnGZORVl3wHLhM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -32,13 +42,13 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/maxime/java_api_training/pom.xml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maxime/java_api_training/pom.xml&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -46,24 +56,60 @@
   </component>
   <component name="RunManager" selected="Application.server">
     <configuration name="client" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.fr.lernejo.navy_battle.Launcher" />
+      <option name="MAIN_CLASS_NAME" value="fr.lernejo.navy_battle.Launcher" />
       <module name="java_api_training" />
       <option name="PROGRAM_PARAMETERS" value="7413 http://localhost:7412" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="grader" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.github.lernejo.korekto.toolkit.launcher.GradingJobLauncher" />
+      <module name="java_api_training" />
+      <option name="PROGRAM_PARAMETERS" value="-s=maxepita" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.fr.lernejo.navy_battle.Launcher" />
+      <option name="MAIN_CLASS_NAME" value="fr.lernejo.navy_battle.Launcher" />
       <module name="java_api_training" />
       <option name="PROGRAM_PARAMETERS" value="7412" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java_api_training [com.github.lernejo.korekto.toolkit.launcher.GradingJobLauncher...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="com.github.lernejo.korekto.toolkit.launcher.GradingJobLauncher" />
+                <option value="-s=maxepita" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.server" />
       <item itemvalue="Application.client" />
+      <item itemvalue="Application.grader" />
+      <item itemvalue="Maven.java_api_training [com.github.lernejo.korekto.toolkit.launcher.GradingJobLauncher...]" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670322540724</updated>
     </task>
+    <task id="LOCAL-00001" summary="maven, pinghttphandler, server">
+      <created>1673191423098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673191423098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maven, pinghttphandler, server" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven, pinghttphandler, server" />
   </component>
 </project>

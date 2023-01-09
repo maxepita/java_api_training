@@ -9,7 +9,7 @@ import java.io.UncheckedIOException;
 public class PingHttpHandler implements HttpHandler {
 
         @Override
-        public void handle(HttpExchange httpExchange) throws IOException {
+        public void handle(HttpExchange httpExchange) {
             try {
                 // Envoi d'une réponse HTTP avec le statut OK (200) et le corps "OK"
                 httpExchange.sendResponseHeaders(200, "OK".length());
