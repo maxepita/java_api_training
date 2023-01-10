@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class GameStartHttpHandler implements HttpHandler {
 
-    public final ObjectMapper mapper = new ObjectMapper();
+    private final ObjectMapper mapper = new ObjectMapper();
     public boolean isNull(HttpExchange exchange ) {
         JsonNode json;
         if(!Objects.isNull(exchange))
