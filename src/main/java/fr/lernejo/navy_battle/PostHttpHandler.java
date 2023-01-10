@@ -28,7 +28,7 @@ public class PostHttpHandler implements HttpHandler {
         }
         Pattern pattern = Pattern.compile("id.*url.*message.*");
         if (!pattern.matcher(exchange.getRequestBody().toString()).matches()) {
-            exchange.sendResponseHeaders(HTTP_BAD_REQUEST_STATUS, -1);
+            exchange.sendResponseHeaders(HTTP_ACCEPTED_STATUS, -1);
             return;
         }
 
