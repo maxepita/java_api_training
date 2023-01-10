@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="New update part 5 grader">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PostHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PostHttpHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="changing coding style" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673356708986</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changing coding style">
+      <created>1673377535935</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673377535935</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +275,7 @@
     <MESSAGE value="new ping test" />
     <MESSAGE value="test part 5 grader" />
     <MESSAGE value="New update part 5 grader" />
-    <option name="LAST_COMMIT_MESSAGE" value="New update part 5 grader" />
+    <MESSAGE value="changing coding style" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing coding style" />
   </component>
 </project>
