@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="coding style changes">
+    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="going backward">
+      <change beforePath="$PROJECT_DIR$/.idea/java_api_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java_api_training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,19 +46,28 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/maxime/java_api_training/pom.xml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/home/maxime/java_api_training/pom.xml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fr.lernejo.navy_battle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.lernejo.navy_battle" />
     </key>
   </component>
   <component name="RunManager" selected="Application.server">
@@ -167,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673349148662</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding jacoco">
+      <created>1673350260849</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673350260849</updated>
+    </task>
+    <task id="LOCAL-00008" summary="going backward">
+      <created>1673350343040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673350343040</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +214,8 @@
     <MESSAGE value="Start from scratch again" />
     <MESSAGE value="Part 3 local changer" />
     <MESSAGE value="coding style changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="coding style changes" />
+    <MESSAGE value="adding jacoco" />
+    <MESSAGE value="going backward" />
+    <option name="LAST_COMMIT_MESSAGE" value="going backward" />
   </component>
 </project>
