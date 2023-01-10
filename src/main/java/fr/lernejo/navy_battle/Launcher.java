@@ -12,7 +12,7 @@ Launcher {
             int port = Integer.parseInt(args[0]); //Integer.parseInt(args[0]);
             server = new Server(port);
             if (args.length > 1) {
-                ClientHttpHandler.postRequest(port, args[1]);
+                ClientHttpHandler client = new ClientHttpHandler();
             }
         } catch (IOException error) {
             throw error;
