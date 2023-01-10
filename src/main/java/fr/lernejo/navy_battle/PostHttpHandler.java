@@ -8,8 +8,8 @@ import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 
 public class PostHttpHandler implements HttpHandler {
-    public int port;
-    public String url;
+    private int port;
+    private String url;
 
 
     public PostHttpHandler(int port, String url){

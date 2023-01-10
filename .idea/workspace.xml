@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="test part 5 grader">
+    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="New update part 5 grader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PostHttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/navy_battle/PostHttpHandler.java" afterDir="false" />
     </list>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673355803859</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="New update part 5 grader">
+      <created>1673356708986</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673356708986</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,7 @@
     <MESSAGE value="Adding second test" />
     <MESSAGE value="new ping test" />
     <MESSAGE value="test part 5 grader" />
-    <option name="LAST_COMMIT_MESSAGE" value="test part 5 grader" />
+    <MESSAGE value="New update part 5 grader" />
+    <option name="LAST_COMMIT_MESSAGE" value="New update part 5 grader" />
   </component>
 </project>
