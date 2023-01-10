@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="going backward">
-      <change beforePath="$PROJECT_DIR$/.idea/java_api_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java_api_training.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="747f97fb-5c62-4618-8ce1-4cc3bd970d87" name="Changes" comment="including jacoco">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/navy_battle/LauncherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/navy_battle/LauncherTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673350343040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="including jacoco">
+      <created>1673351688818</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673351688818</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +222,7 @@
     <MESSAGE value="coding style changes" />
     <MESSAGE value="adding jacoco" />
     <MESSAGE value="going backward" />
-    <option name="LAST_COMMIT_MESSAGE" value="going backward" />
+    <MESSAGE value="including jacoco" />
+    <option name="LAST_COMMIT_MESSAGE" value="including jacoco" />
   </component>
 </project>
