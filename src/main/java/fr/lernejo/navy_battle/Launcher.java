@@ -11,10 +11,9 @@ Launcher {
         try {
             int port = Integer.parseInt(args[0]); //Integer.parseInt(args[0]);
             server = new Server(port);
-            /*if (args.length > 1) {
-                Client client = new Client(server, args[1]);
-                client.connect();
-            }*/
+            if (args.length > 1) {
+                ClientHttpHandler client = new ClientHttpHandler();
+            }
         } catch (IOException error) {
             throw error;
         }
