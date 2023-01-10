@@ -7,7 +7,7 @@ import java.net.URI;
 import java.net.http.HttpRequest;
 
 public class ClientHttpHandler {
-    public final void postRequest(int port, String adversaryUrl) throws IOException, InterruptedException {
+    public static final void postRequest(int port, String adversaryUrl) throws IOException, InterruptedException {
         HttpClient httpClient = HttpClient.newHttpClient();
         HttpRequest postRequest = HttpRequest.newBuilder().uri(URI.create(adversaryUrl + "/api/game/start"))
             .setHeader("Accept", "application/json").setHeader("Content-Type", "application/json")
