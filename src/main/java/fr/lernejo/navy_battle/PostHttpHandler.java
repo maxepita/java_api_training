@@ -25,7 +25,7 @@ public class PostHttpHandler implements HttpHandler {
         }
     }
     public void Response(HttpExchange httpExchange) throws IOException{
-        String msg = "{\"id\":\"1\", \"url\":\"http://localhost:" + this.port + "\", \"message\":\"may the code win\"}";
+        String msg = "{\"id\":\"1\", \"url\":\"http://localhost:" + this.port + "\", \"message\":\"May the best code win\"}";
         String rcs = new String(httpExchange.getRequestBody().readAllBytes(), StandardCharsets.UTF_8);
         System.out.println(rcs);
         httpExchange.getResponseHeaders().set("Content-type", "application/json");
