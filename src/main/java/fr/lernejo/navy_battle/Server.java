@@ -28,7 +28,7 @@ public class Server {
         Executor executorService = Executors.newFixedThreadPool(1);
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
         server.createContext("/ping", new PingHttpHandler());
-        server.createContext("/api/game/start", new PostHttpHandler(port));
+        server.createContext("/api/game/start", new PostHttpHandler(port, ""));
         server.setExecutor(executorService);
         server.start();
     }

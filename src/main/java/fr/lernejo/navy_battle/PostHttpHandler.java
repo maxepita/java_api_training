@@ -5,38 +5,34 @@ import com.sun.net.httpserver.HttpHandler;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.net.http.HttpRequest;
-import java.util.Collections;
-import java.util.regex.Pattern;
+import java.nio.charset.StandardCharsets;
 
 public class PostHttpHandler implements HttpHandler {
-    private final int HTTP_ACCEPTED_STATUS = 202;
-    private final int HTTP_NOT_FOUND_STATUS = 404;
-    private final int HTTP_BAD_REQUEST_STATUS = 400;
-    private final int port;
+    public int port;
+    public String url;
 
-    public PostHttpHandler (int port) {
+
+    public PostHttpHandler(int port, String url){
         this.port = port;
+        this.url = url;
     }
 
-    @Override
-    public void handle(HttpExchange exchange) throws IOException {
-        String body;
-        if (!(exchange.getRequestMethod().equals("POST"))) {// || (exchange.getRequestMethod().equals("GET")))) {
-            exchange.sendResponseHeaders(HTTP_NOT_FOUND_STATUS, -1);
-            return;
+    public void handle(HttpExchange httpExchange) throws IOException {
+        if (httpExchange.getRequestMethod().equals("POST")) {
+            Response(httpExchange);
+        } else {
+            httpExchange.sendResponseHeaders(404, -1);
         }
-        Pattern pattern = Pattern.compile("id.*url.*message.*");
-        if (!pattern.matcher(exchange.getRequestBody().toString()).matches()) {
-            exchange.sendResponseHeaders(HTTP_ACCEPTED_STATUS, -1);
-            return;
+    }
+    public void Response(HttpExchange httpExchange) throws IOException{
+        String msg = "{\"id\":\"1\", \"url\":\"http://localhost:" + this.port + "\", \"message\":\"may the code win\"}";
+        String rcs = new String(httpExchange.getRequestBody().readAllBytes(), StandardCharsets.UTF_8);
+        System.out.println(rcs);
+        httpExchange.getResponseHeaders().set("Content-type", "application/json");
+        httpExchange.sendResponseHeaders(202, msg.length());
+        try (OutputStream os = httpExchange.getResponseBody()){
+            os.write(msg.getBytes());
         }
 
-        body = "{\"id\":\"2\", \"url\":\"http://localhost:" + this.port + "\", \"message\":\"May the code win\"}";
-        exchange.getResponseHeaders().set("Content-type", "application/json");
-        exchange.sendResponseHeaders(HTTP_ACCEPTED_STATUS, body.length());
-        try (OutputStream os = exchange.getResponseBody()){
-            os.write(body.getBytes());
-        }
     }
 }
