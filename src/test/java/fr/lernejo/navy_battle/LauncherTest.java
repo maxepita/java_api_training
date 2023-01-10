@@ -14,7 +14,7 @@ class LauncherTest {
     @Test
     void wrong_arg(){
         assertThrows(NumberFormatException.class, ()->{
-            Launcher.main(new String[]{"azert"});
+            Launcher.main(new String[]{"egzslmq"});
         });
     }
 
@@ -27,10 +27,10 @@ class LauncherTest {
     }
     @Test
     void ping_arg() throws Exception {
-        Launcher.main(new String[]{"3645"});
+        Launcher.main(new String[]{"1234"});
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-            .uri(URI.create("http://localhost:3645/ping"))
+            .uri(URI.create("http://localhost:1234/ping"))
             .GET()
             .build();
 
