@@ -10,7 +10,7 @@ import java.io.OutputStream;
 
 public class FireHttpHandler implements HttpHandler {
 
-    final Server srv;
+    final private Server srv;
 
     public FireHttpHandler(Server srv) {
         this.srv = srv;
